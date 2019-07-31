@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & run with Clang",
+      "type": "shell",
+      "command": "/usr/local/opt/llvm/bin/clang++",
+      "args": [
+        "-std=c++17",
+        "-stdlib=libc++",
+        "${file}",
+        "-o",
+        "${fileDirname}/a.out",
+        "&&",
+        "${fileDirname}/a.out"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
