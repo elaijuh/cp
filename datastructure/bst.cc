@@ -7,6 +7,7 @@ class BST {
     int item;
     struct node *left;
     struct node *right;
+    node(int item, node *left = nullptr, node *right = nullptr) : item(item) {}
   };
 
   node *root;
@@ -38,9 +39,7 @@ class BST {
 
   node *insert(int x, node *t) {
     if (t == nullptr) {
-      t = new node;
-      t->item = x;
-      t->left = t->right = nullptr;
+      t = new node(x);
     } else if (x < t->item) {
       t->left = insert(x, t->left);
     } else if (x > t->item) {
