@@ -4,6 +4,7 @@
  * [3] Longest Substring Without Repeating Characters
  */
 
+// sliding window
 class Solution {
  public:
   int lengthOfLongestSubstring(string s) {

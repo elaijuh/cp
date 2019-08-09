@@ -3,43 +3,33 @@
  *
  * [22] Generate Parentheses
  */
+
+// backtracking
+
 class Solution {
   vector<string> ans;
+  stack<char> tmpstack;
 
-  bool validate(string s) {
-    stack<char> a;
-    for (char c : s) {
-      if (c == ')') {
-        if (a.size() == 0)
-          return false;
-        else
-          a.pop();
-      } else {
-        a.push(c);
-      }
-    }
-    return true;
-  }
-
-  void permute(string s, int l, int r) {
-    if (l == r) {
-      if (validate(s)) ans.push_back(s);
+  void backtrack(string s, int open, int close, int n) {
+    if (s.length() == 2 * n) {
+      ans.push_back(s);
       return;
     }
-    for (int k = l; k <= r; k++) {
-      if (s[l] != s[k]) {
-        swap(s[l], s[k]);
-        permute(s, l + 1, r);
-        swap(s[l], s[k]);
-      }
+    if (open < n) {
+      tmpstack.push('(');
+      backtrack(s + '(', open + 1, close, n);
+      tmpstack.pop();
+    }
+    if (close < n && !tmpstack.empty()) {
+      tmpstack.pop();
+      backtrack(s + ')', open, close + 1, n);
+      tmpstack.push('(');
     }
   }
 
  public:
   vector<string> generateParenthesis(int n) {
-    string s(n, '(');
-    s.insert(s.end(), n, ')');
-    permute(s, 0, 2 * n - 1);
+    backtrack("", 0, 0, n);
     return ans;
   }
 };
