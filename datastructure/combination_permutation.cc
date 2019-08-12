@@ -20,6 +20,7 @@ class CP {
     }
   }
 
+  // take r elements out of array whose lower index is i and higher index is n
   void _comb(int a[], int t[], int i, int n, int j, int r) {
     if (j == r) {
       for (int k = 0; k < r; k++) {
