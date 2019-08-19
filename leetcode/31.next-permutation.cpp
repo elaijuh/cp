@@ -3,6 +3,9 @@
  *
  * [31] Next Permutation
  */
+
+// C++ STL next_permutation
+
 class Solution {
  public:
   void nextPermutation(vector<int>& nums) {

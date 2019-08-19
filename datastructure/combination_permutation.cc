@@ -20,6 +20,26 @@ class CP {
     }
   }
 
+  // non recursive
+  void _permute(int a[], int n) {
+    if (n == 1) return;
+    sort(a, a + n);
+    while (true) {
+      // print
+      for (int k = 0; k < n; k++) {
+        cout << a[k] << " ";
+      }
+      cout << endl;
+      int i = n - 2;
+      while (i >= 0 && a[i + 1] <= a[i]) i--;
+      if (i < 0) break;
+      int j = n - 1;
+      while (j >= i && a[j] <= a[i]) j--;
+      swap(a[i], a[j]);
+      reverse(a + i + 1, a + n);
+    }
+  }
+
   // take r elements out of array whose lower index is i and higher index is n
   void _comb(int a[], int t[], int i, int n, int j, int r) {
     if (j == r) {
@@ -44,7 +64,9 @@ class CP {
     _comb(a, t, 0, n, 0, r);
   }
 
-  void permutation(int a[], int l, int r) { _permute(a, l, r); }
+  void permutation_recursive(int a[], int l, int r) { _permute(a, l, r); }
+
+  void permutation_nonrecursive(int a[], int n) { _permute(a, n); }
 };
 
 int main() {
@@ -52,7 +74,9 @@ int main() {
   CP cp;
   cout << "combination:" << endl;
   cp.combination(a, 5, 3);
-  cout << "permutation:" << endl;
-  cp.permutation(a, 0, 2);
+  cout << "permutation_recursive:" << endl;
+  cp.permutation_recursive(a, 0, 4);
+  cout << "permutation_nonrecursive:" << endl;
+  cp.permutation_nonrecursive(a, 5);
   return 0;
 }
