@@ -3,6 +3,9 @@
  *
  * [904] Fruit Into Baskets
  */
+
+// tag: 2 pointers
+
 class Solution {
  public:
   int totalFruit(vector<int>& tree) {
