@@ -6,6 +6,7 @@
       "type": "shell",
       "command": "/usr/local/opt/llvm/bin/clang++",
       "args": [
+        "-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
         "-std=c++17",
         "-stdlib=libc++",
         "${file}",
