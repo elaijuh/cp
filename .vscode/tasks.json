@@ -2,21 +2,35 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build & run with Clang",
-      "type": "shell",
-      "command": "/usr/local/opt/llvm/bin/clang++",
-      "args": [
-        "-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
-        "-std=c++17",
-        "-stdlib=libc++",
-        "${file}",
-        "-o",
-        "${fileDirname}/a.out",
-        "&&",
-        "${fileDirname}/a.out"
-      ],
+      "type": "process",
+      "label": "g++ build",
+      "command": "g++",
+      "args": ["-Wall", "-std=c++17", "-lm", "${file}", "-o", "${fileDirname}/a.out"],
+      "presentation": {
+        "echo": false,
+        "reveal": "silent",
+        "showReuseMessage": false
+      },
       "group": {
         "kind": "build",
+        "isDefault": true
+      },
+      "options": {
+        "cwd": "/usr/bin"
+      }
+    },
+    {
+      "type": "shell",
+      "label": "run",
+      "dependsOn": "g++ build",
+      "command": "${fileDirname}/a.out",
+      "presentation": {
+        "echo": false,
+        "showReuseMessage": false,
+        "clear": true
+      },
+      "group": {
+        "kind": "test",
         "isDefault": true
       }
     }
