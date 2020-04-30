@@ -7,6 +7,8 @@
 https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143
 有序列表去重
 https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
+归并排序(递归，迭代)
+https://leetcode.com/problems/sort-list/description/
 
 ## 栈
 
@@ -16,6 +18,8 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 
 ## 图
 
+--- 
+
 # 算法
 
 ## 归并排序：
@@ -23,6 +27,7 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1144
 
 
+---
 
 # 参考资料
 https://github.com/CyC2018/CS-Notes
