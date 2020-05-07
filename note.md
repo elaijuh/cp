@@ -9,6 +9,9 @@ https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143
 https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 归并排序(递归，迭代)
 https://leetcode.com/problems/sort-list/description/
+环检测
+https://leetcode.com/problems/linked-list-cycle/description/
+
 
 ## 栈
 
@@ -25,6 +28,9 @@ https://leetcode.com/problems/sort-list/description/
 ## 归并排序：
 逆序对
 https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1144
+Boyer-Moore Voting Algorithm
+https://leetcode.com/problems/majority-element/
+
 
 
 ---
