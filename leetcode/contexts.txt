@@ -1,2 +1,0 @@
-dp:
-https://leetcode.com/contest/weekly-contest-149/problems/number-of-dice-rolls-with-target-sum/

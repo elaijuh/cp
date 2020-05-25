@@ -1,0 +1,19 @@
+{
+  "leetcode": {
+    "hint": {
+      "commandShortcut": false,
+      "configWebviewMarkdown": false
+    },
+    "workspaceFolder": "/Users/hjl/code/elaijuh/acm/leetcode",
+    "defaultLanguage": "cpp",
+    "enableStatusBar": false,
+    "showCommentDescription": false,
+    "editor.shortcuts": ["submit", "test"],
+    "filePath": {
+      "default": {
+        "folder": "${id}.${kebab-case-name}",
+        "filename": "s1.${ext}"
+      }
+    }
+  }
+}
