@@ -32,6 +32,9 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 
 ## 图
 
+二分图
+https://leetcode.com/problems/possible-bipartition/
+
 ---
 
 # 算法
