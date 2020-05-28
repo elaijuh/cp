@@ -51,7 +51,7 @@ https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1144
 Boyer-Moore Voting Algorithm
 https://leetcode.com/problems/majority-element/
 
-## 动态规划
+## 动态规划 DP
 
 Kadane's algorithm (子数组最大最小和)
 https://leetcode.com/problems/maximum-sum-circular-subarray/description/
@@ -63,10 +63,14 @@ https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 LCS
 https://leetcode.com/problems/uncrossed-lines/
 
-## 背包
+## 背包 Knapsack
 
 非 01 背包
 https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+
+## 位运算 Bit manipulation
+
+https://leetcode.com/problems/counting-bits/
 
 ---
 
