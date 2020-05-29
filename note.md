@@ -32,7 +32,10 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 
 ## 图
 
-二分图
+DAG 环检测，拓扑排序
+https://leetcode.com/problems/course-schedule/
+
+二分图着色法
 https://leetcode.com/problems/possible-bipartition/
 
 ---
