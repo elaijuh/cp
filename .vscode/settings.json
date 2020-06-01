@@ -15,5 +15,11 @@
         "filename": "s1.${ext}"
       }
     }
+  },
+  "files.associations": {
+    "*.html": "html",
+    "vector": "cpp",
+    "iosfwd": "cpp",
+    "iterator": "cpp"
   }
 }

@@ -38,6 +38,9 @@ https://leetcode.com/problems/course-schedule/
 二分图着色法
 https://leetcode.com/problems/possible-bipartition/
 
+Floyd-Warshall
+https://leetcode.com/problems/course-schedule-iv/
+
 ---
 
 # 算法
@@ -65,6 +68,8 @@ https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 
 LCS
 https://leetcode.com/problems/uncrossed-lines/
+LCS 变体，多了替换操作
+https://leetcode.com/problems/edit-distance/
 
 ## 背包 Knapsack
 
