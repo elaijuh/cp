@@ -2,6 +2,8 @@
 // Author: github.com/elaijuh
 // Time: O()
 // Space: O()
+
+// Greedy
 class Solution {
  public:
   int twoCitySchedCost(vector<vector<int>>& costs) {
