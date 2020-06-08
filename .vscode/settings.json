@@ -17,9 +17,6 @@
     }
   },
   "files.associations": {
-    "*.html": "html",
-    "vector": "cpp",
-    "iosfwd": "cpp",
-    "iterator": "cpp"
+    "*.html": "html"
   }
 }
