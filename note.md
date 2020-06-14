@@ -44,9 +44,17 @@ https://leetcode.com/problems/possible-bipartition/
 Floyd-Warshall
 https://leetcode.com/problems/course-schedule-iv/
 
+dfs 边限制下的最短路径
+https://leetcode.com/problems/cheapest-flights-within-k-stops/
+
 ---
 
 # 算法
+
+## 二分查找(binary search)
+
+基于数值的二分查找
+https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
 ## 滑动窗口(sliding window):
 
@@ -71,6 +79,9 @@ https://leetcode.com/problems/maximum-sum-circular-subarray/description/
 https://leetcode.com/problems/count-square-submatrices-with-all-ones/description/
 
 https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
+
+最长元素两两互模为 0 的子集
+https://leetcode.com/problems/largest-divisible-subset/
 
 LCS
 https://leetcode.com/problems/uncrossed-lines/
