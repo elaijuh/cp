@@ -16,8 +16,9 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 归并排序(递归，迭代)
 https://leetcode.com/problems/sort-list/description/
 
-环检测(Floyd's tortoise and hare)
+环检测,环起点(Floyd's tortoise and hare)
 https://leetcode.com/problems/linked-list-cycle/description/
+https://leetcode.com/problems/find-the-duplicate-number/
 
 就地重构列表（单数元素拼接双数元素）
 https://leetcode.com/problems/odd-even-linked-list/description/
