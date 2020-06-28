@@ -30,7 +30,7 @@ https://leetcode.com/problems/odd-even-linked-list/description/
 ## 树
 
 dfs+路径计算(摘苹果)
-https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/  
+https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/
 BST 求第 k 小的元素(inorder 遍历即排序)
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
 
@@ -126,6 +126,8 @@ https://labuladong.gitbook.io/algo/
 https://space.bilibili.com/9880352?fr...&spm_id_from=333.788.b_636f6d6d656e74.12
 
 https://blog.csdn.net/fuxuemingzhu/article/details/105183554
+
+https://github.com/greyireland/algorithm-pattern
 
 奇技淫巧
 
