@@ -48,6 +48,9 @@ https://leetcode.com/problems/course-schedule-iv/
 dfs 边限制下的最短路径
 https://leetcode.com/problems/cheapest-flights-within-k-stops/
 
+欧拉路径, Hierholzer algorithm
+https://leetcode.com/problems/reconstruct-itinerary/
+
 ---
 
 # 算法
