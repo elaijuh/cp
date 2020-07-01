@@ -17,6 +17,7 @@
     }
   },
   "files.associations": {
-    "*.html": "html"
+    "*.html": "html",
+    "algorithm": "cpp"
   }
 }
