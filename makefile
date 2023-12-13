@@ -9,7 +9,7 @@ OUT = a.out
 	$(CC) $(CFLAGS) -c $^ -o $@
 
 $(OUT): $(OFILES)
-	$(CC) $^ -o $@
+	$(CC) $^ -o $@ -lm
 
 all: $(OUT)
 
