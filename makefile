@@ -1,9 +1,10 @@
 CC = gcc
 CFLAGS = -std=c11 -Wall -g -Iinclude -O2
 
-SFILES = $(P)
+SPATH = $(p)
+SFILES = $(SPATH)/$(s)
 OFILES = $(SFILES:.c=.o)
-OUT = a.out
+OUT = $(SPATH)/a.out
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $^ -o $@
@@ -11,7 +12,12 @@ OUT = a.out
 $(OUT): $(OFILES)
 	$(CC) $^ -o $@ -lm
 
-all: $(OUT)
+build: clean $(OUT)
+
+run: clean $(OUT)
+	$(OUT)
+
+all: run
 
 clean:
 	@rm -f $(OFILES) $(OUT)
