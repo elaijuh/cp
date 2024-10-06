@@ -1,5 +1,6 @@
 .DS_Store
 foo.cc
+*.dSYM
 
 # Prerequisites
 *.d
