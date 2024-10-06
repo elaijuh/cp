@@ -1,5 +1,5 @@
 CC = g++-14
-CFLAGS = -g -Wall -std=c++17 -I .
+CFLAGS = -g -Wall -Wextra -std=gnu++20 -O2 -I .
 LIBS = -lm
 TARGET = $(t)
 
