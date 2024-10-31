@@ -3,12 +3,15 @@ CFLAGS = -g -Wall -Wextra -std=gnu++20 -O2 -I .
 LIBS = -lm
 TARGET = $(t)
 
-.PHONY: all format clean
+.PHONY: all template format clean
 
 all: a.out
 
 a.out: $(TARGET)
 	$(CC) $(CFLAGS) $(LIBS) $(TARGET) -o a.out
+
+template:
+	./gent.sh $(TARGET)
 
 format:
 	git ls-files | grep -E '\.(c|cpp|cc|h)$$' | xargs clang-format -i

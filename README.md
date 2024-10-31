@@ -2,7 +2,7 @@
 
 ## clangd lsp complains about bits/std++.h
 
-1. Create `compile_flags.txt` under folder to clangd to get the compile flags
+1. Create `.clangd` for the compile flags
 
 2. Copy stdc++.h to /usr/local/include/bits
 

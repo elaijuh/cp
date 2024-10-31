@@ -10,11 +10,13 @@ unzip -j ac-library.zip "atcoder/*" -d ./atcoder
 rm ac-library.zip
 ```
 
+# Compile and run
+
 ## Generate template
 
 ```sh
-./gt.sh abc373_a.c
-./gt.sh abc373_a.cpp
+./gent.sh abc373_a.c
+./gent.sh abc373_a.cpp
 ```
 
 ## Compile and run

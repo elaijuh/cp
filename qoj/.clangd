@@ -1,0 +1,9 @@
+If:
+  PathMatch: .*\.cpp
+CompileFlags:
+  Add: [-std=c++23, -I/usr/local/include]
+---
+If:
+  PathMatch: .*\.c
+CompileFlags:
+  Add: [-std=c11, -I/usr/local/include]
