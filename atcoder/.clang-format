@@ -1,8 +1,10 @@
-BasedOnStyle: 'Chromium'
+BasedOnStyle: Chromium
 IndentWidth: 4
+TabWidth: 4
+UseTab: Always
 AccessModifierOffset: -2
 # for competitive programing
 AllowShortFunctionsOnASingleLine: All
-AllowShortIfStatementsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortLoopsOnASingleLine: true
-AlwaysBreakTemplateDeclarations: false
+AlwaysBreakTemplateDeclarations: No
