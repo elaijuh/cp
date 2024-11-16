@@ -4,6 +4,7 @@ TabWidth: 4
 UseTab: Always
 AccessModifierOffset: -2
 # for competitive programing
+ColumnLimit: 0
 AllowShortFunctionsOnASingleLine: All
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
 AllowShortLoopsOnASingleLine: true
