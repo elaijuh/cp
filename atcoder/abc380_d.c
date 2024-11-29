@@ -1,5 +1,5 @@
 // https://atcoder.jp/contests/abc380/tasks/abc380_d
-// #bits #binary
+// #bits #binary #fav
 #include <stdio.h>
 #include <string.h>
 
