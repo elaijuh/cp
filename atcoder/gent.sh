@@ -8,6 +8,7 @@ link=https://atcoder.jp/contests/$ct/tasks/$name
 if [[ "$ext" == "cpp" ]]; then
   cat >${1} <<EOF
 // $link
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,6 +21,7 @@ EOF
 elif [[ "$ext" == "c" ]]; then
   cat >${1} <<EOF
 // $link
+
 #include <stdio.h>
 
 int main()
