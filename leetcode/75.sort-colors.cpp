@@ -43,20 +43,19 @@
 
 // @lc code=start
 class Solution {
- public:
-  void sortColors(vector<int>& nums) {
-    int l = nums.size();
-    int tmp;
-    for (int i = 0, j = 0, k = l - 1; i <= k;) {
-      if (nums[i] == 0) {
-        swap(nums[j++], nums[i]);
-        i++;
-      } else if (nums[i] == 2) {
-        swap(nums[k--], nums[i]);
-      } else {
-        i++;
-      }
-    }
-  }
+  public:
+	void sortColors(vector<int> &nums) {
+		int l = nums.size();
+		for (int i = 0, j = 0, k = l - 1; i <= k;) {
+			if (nums[i] == 0) {
+				swap(nums[j++], nums[i]);
+				i++;
+			} else if (nums[i] == 2) {
+				swap(nums[k--], nums[i]);
+			} else {
+				i++;
+			}
+		}
+	}
 };
 // @lc code=end

@@ -14,11 +14,19 @@ curl -sS https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v
 
 3. Manually remove these headers: `<cstdalign>`,`<cuchar>`,`<memory_resources>` in order for clangd to work, and that `tree_policy` may still not be usable
 
-# Compile and run example using gmake
+# Compile and run using gmake
 
 Eg.
 
-```sh
+```bash
 make clean && make P=projecteuler/3.c
 make clean P=projecteuler/3.c
+```
+
+# Compile and run using just
+
+```bash
+just s=a.c c && ./a.out
+just s=a.cpp cpp && ./a.out
+just clean
 ```
