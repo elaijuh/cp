@@ -1,0 +1,3 @@
+https://leetcode.com/problems/open-the-lock/
+#medium #graph #bfs
+- store level in bfs queue
