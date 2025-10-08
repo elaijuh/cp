@@ -6,7 +6,7 @@ CC = gcc
 CFLAGS = -std=gnu2x -O2 -I. -lm
 else
 CC = g++
-CFLAGS = -std=gnu++20 -O2 \
+CFLAGS = -std=gnu++23 -O2 \
 		 -Wall -Wextra \
 		 -mtune=native -march=native \
 		 -fconstexpr-depth=2147483647 -fconstexpr-loop-limit=2147483647 -fconstexpr-ops-limit=2147483647 \
