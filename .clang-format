@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+ColumnLimit: 0
+TabWidth: 4
+IndentWidth: 4
+IndentAccessModifiers: false
+AccessModifierOffset: -4
+UseTab: Always
+AllowShortIfStatementsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Always
+AllowShortFunctionsOnASingleLine: All
+AllowShortLambdasOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+SpacesBeforeTrailingComments: 2
+AlwaysBreakTemplateDeclarations: No
+BreakBeforeBraces: Stroustrup
