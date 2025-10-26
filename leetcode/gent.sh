@@ -7,8 +7,11 @@ link=https://leetcode.com/problems/$name
 wd=$(dirname $(realpath $0))
 mkdir -p $wd/${1}
 
-cat >$wd/${1}/problem.txt <<-EOF
+cat >$wd/${1}/problem.md <<-EOF
+	# Problem
 	$link
+	# Tags
+	# Solution
 EOF
 
 cat >$wd/${1}/s1.cpp <<-EOF
