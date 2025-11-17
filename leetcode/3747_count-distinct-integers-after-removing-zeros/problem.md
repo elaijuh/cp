@@ -21,3 +21,9 @@ Let S(k) be the count of non-0-containing numbers up to a k digit number. Then `
 ## Step 2:
 
 Loop n digit by digit. The ith (from left to right) digit n[i] can generate `(n[i]-1)*pow(9,d-i-1)` non-0-containing numbers. Break when counting to '0' in n.
+
+## Reference
+
+Similar problem to count 0 containing numbers from GeeksForGeeks
+
+https://www.geeksforgeeks.org/dsa/count-numbers-having-0-as-a-digit/
