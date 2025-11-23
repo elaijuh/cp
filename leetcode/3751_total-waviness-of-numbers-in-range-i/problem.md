@@ -1,0 +1,9 @@
+# Problem
+
+https://leetcode.com/problems/total-waviness-of-numbers-in-range-i
+
+# Tags
+
+#medium
+
+# Solution
