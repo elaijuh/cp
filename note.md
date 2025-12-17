@@ -1,11 +1,11 @@
-# 数据结构
+# data structure
 
-## 向量
+## vector
 
 DAC，边界有点 tricky
 https://leetcode.com/problems/single-element-in-a-sorted-array/
 
-## 列表:
+## linked list
 
 模拟
 https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1143
@@ -23,22 +23,28 @@ https://leetcode.com/problems/find-the-duplicate-number/
 就地重构列表（单数元素拼接双数元素）
 https://leetcode.com/problems/odd-even-linked-list/description/
 
-## 栈
+## stack
 
-## 队列
+### monotonic stack
 
-## 树
+## queue
+
+## heap(priority queue)
+
+## tree
 
 dfs+路径计算(摘苹果)
 https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/
 
-BST 求第 k 小的元素(inorder 遍历即排序)
+bst 求第 k 小的元素(inorder 遍历即排序)
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
-Trie
+trie
 https://leetcode.com/problems/word-search-ii/
 
-## 图
+red-black tree
+
+## graph
 
 DAG 环检测，拓扑排序
 https://leetcode.com/problems/course-schedule/
@@ -57,14 +63,14 @@ https://leetcode.com/problems/reconstruct-itinerary/
 
 ---
 
-# 算法
+# algorithm
 
-## 二分查找(binary search)
+## binary search
 
 基于数值的二分查找
 https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
-## 滑动窗口(sliding window):
+## sliding window
 
 https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 
@@ -73,7 +79,7 @@ https://leetcode.com/problems/permutation-in-string/description/
 不相交子数组求和
 https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
 
-## 归并排序：
+## merge sort
 
 逆序对
 https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1144
@@ -81,38 +87,61 @@ https://dsa.cs.tsinghua.edu.cn/oj/problem.shtml?id=1144
 Boyer-Moore Voting Algorithm
 https://leetcode.com/problems/majority-element/
 
-## 动态规划 DP
+## dynamic programming
 
-Kadane's algorithm (子数组最大最小和)
+top-down(memorization)
+bottom-up(tabulation)
+
+## string match
+
+- KMP
+
+- Rabin-Karp
+
+## Kadane's algorithm (子数组最大最小和)
+
 https://leetcode.com/problems/maximum-sum-circular-subarray/description/
 
-正子矩阵个数
+## 正子矩阵个数
+
 https://leetcode.com/problems/count-square-submatrices-with-all-ones/description/
 
 https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 
-最长元素两两互模为 0 的子集
+## 最长元素两两互模为 0 的子集
+
 https://leetcode.com/problems/largest-divisible-subset/
 
-LCS
+## LCS
+
 https://leetcode.com/problems/uncrossed-lines/
 
 LCS 变体，多了替换操作
 https://leetcode.com/problems/edit-distance/
 
-## 背包 Knapsack
+## dijkstra
 
-非 01 背包
+## travelling salesman problem (tsp) / hamiltonia cycle
+
+## minimum spanning tree (mst)
+
+## huffman tree
+
+## knapsack
+
+0/1 knapsack
+
+non-0/1 knapsack
 https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 凑硬币
 https://leetcode.com/problems/coin-change-2/
 
-## 位运算 Bit manipulation
+## bit manipulation
 
 https://leetcode.com/problems/counting-bits/
 
-## 概率，排列组合
+## probability, combinatoric, permutation
 
 按色分球
 https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/
@@ -122,9 +151,7 @@ https://leetcode.com/problems/random-pick-with-weight/
 
 ---
 
-# 参考资料
-
-知名刷客的站点
+# reference
 
 https://github.com/CyC2018/CS-Notes
 
@@ -140,6 +167,6 @@ https://github.com/greyireland/algorithm-pattern
 
 http://aggregate.org/MAGIC/
 
-书:
+## books:
 
 The Algorithm Design Manual

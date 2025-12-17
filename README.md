@@ -1,32 +1,14 @@
-# Issues
-
-## clangd lsp complains about bits/std++.h
-
-1. Create `.clangd` for the compile flags
-
-2. Copy stdc++.h to /usr/local/include/bits
-
-```sh
-mkdir /usr/local/include/bits
-echo '#define _GLIBCXX_HOSTED 1' > /usr/local/include/bits/stdc++.h
-curl -sS https://raw.githubusercontent.com/gcc-mirror/gcc/master/libstdc%2B%2B-v3/include/precompiled/stdc%2B%2B.h >> /usr/local/include/bits/stdc++.h
-```
-
-3. Manually remove these headers: `<cstdalign>`,`<cuchar>`,`<memory_resources>` in order for clangd to work, and that `tree_policy` may still not be usable
-
-# Compile and run using gmake
-
-Eg.
+# Leetcode
 
 ```bash
-make clean && make P=projecteuler/3.c
-make clean P=projecteuler/3.c
+cd leetcode
+
+# create folder for problem
+make template t=two-sum
 ```
 
-# Compile and run using just
+# Atcode
 
-```bash
-just s=a.c c && ./a.out
-just s=a.cpp cpp && ./a.out
-just clean
-```
+# API
+
+https://github.com/alfaarghya/alfa-leetcode-api
