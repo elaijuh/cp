@@ -46,8 +46,13 @@ red-black tree
 
 ## graph
 
-DAG 环检测，拓扑排序
+### DAG 环检测，拓扑排序
+
 https://leetcode.com/problems/course-schedule/
+
+### disjoint set (union find) 并查集
+
+- https://leetcode.com/problems/find-all-people-with-secret
 
 二分图着色法
 https://leetcode.com/problems/possible-bipartition/
@@ -89,8 +94,7 @@ https://leetcode.com/problems/majority-element/
 
 ## dynamic programming
 
-top-down(memorization)
-bottom-up(tabulation)
+- https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v
 
 ## string match
 
@@ -127,7 +131,7 @@ https://leetcode.com/problems/edit-distance/
 
 ## huffman tree
 
-## knapsack
+## knapsack (DP)
 
 0/1 knapsack
 
