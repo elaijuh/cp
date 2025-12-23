@@ -31,6 +31,8 @@ https://leetcode.com/problems/odd-even-linked-list/description/
 
 ## heap(priority queue)
 
+https://leetcode.com/problems/maximum-number-of-eaten-apples
+
 ## tree
 
 dfs+路径计算(摘苹果)
@@ -39,10 +41,13 @@ https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/descr
 bst 求第 k 小的元素(inorder 遍历即排序)
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
-trie
+### trie
+
 https://leetcode.com/problems/word-search-ii/
 
-red-black tree
+### red-black tree
+
+### suffix tree
 
 ## graph
 
