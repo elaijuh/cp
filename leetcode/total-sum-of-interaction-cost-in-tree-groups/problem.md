@@ -1,4 +1,4 @@
-# Problem
+# Problem: total-sum-of-interaction-cost-in-tree-groups
 
 https://leetcode.com/problems/total-sum-of-interaction-cost-in-tree-groups
 

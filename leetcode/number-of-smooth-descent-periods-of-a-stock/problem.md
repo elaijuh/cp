@@ -1,4 +1,4 @@
-# Problem
+# Problem: number-of-smooth-descent-periods-of-a-stock
 
 https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock
 

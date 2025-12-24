@@ -1,4 +1,4 @@
-# Problem
+# Problem: sqrtx
 
 https://leetcode.com/problems/sqrtx
 

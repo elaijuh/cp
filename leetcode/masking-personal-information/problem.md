@@ -1,4 +1,4 @@
-# Problem
+# Problem: masking-personal-information
 
 https://leetcode.com/problems/masking-personal-information
 

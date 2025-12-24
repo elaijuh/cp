@@ -7,14 +7,14 @@ link=https://leetcode.com/problems/$name
 wd=$(dirname $(realpath $0))
 mkdir -p $wd/${1}
 
-cat >$wd/${1}/problem.md <<-EOF
-	# Problem
+cat > $wd/${1}/problem.md <<- EOF
+	# $name
 	$link
 	# Tags
 	# Solution
 EOF
 
-cat >$wd/${1}/s1.cpp <<-EOF
+cat > $wd/${1}/s1.cpp <<- EOF
 	#include <bits/stdc++.h>
 	using namespace std;
 EOF

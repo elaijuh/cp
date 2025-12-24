@@ -1,4 +1,4 @@
-# Problem
+# Problem: maximum-number-of-eaten-apples
 
 https://leetcode.com/problems/maximum-number-of-eaten-apples
 

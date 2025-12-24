@@ -1,4 +1,4 @@
-# Problem
+# Problem: repeated-string-match
 
 https://leetcode.com/problems/repeated-string-match
 

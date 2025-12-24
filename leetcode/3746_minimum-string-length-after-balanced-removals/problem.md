@@ -1,4 +1,4 @@
-# Problem
+# Problem: 3746_minimum-string-length-after-balanced-removals
 
 https://leetcode.com/problems/minimum-string-length-after-balanced-removals
 

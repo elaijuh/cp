@@ -1,4 +1,4 @@
-# Problem
+# Problem: 3747_count-distinct-integers-after-removing-zeros
 
 https://leetcode.com/problems/count-distinct-integers-after-removing-zeros
 

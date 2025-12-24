@@ -1,4 +1,4 @@
-# Problem
+# Problem: 3728_stable-subarrays-with-equal-boundary-and-interior-sum
 
 https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum
 

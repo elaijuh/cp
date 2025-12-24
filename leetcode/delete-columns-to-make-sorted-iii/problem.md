@@ -1,4 +1,4 @@
-# Problem
+# Problem: delete-columns-to-make-sorted-iii
 
 https://leetcode.com/problems/delete-columns-to-make-sorted-iii
 

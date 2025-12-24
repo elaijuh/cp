@@ -1,4 +1,4 @@
-# Problem
+# Problem: max-consecutive-ones
 
 https://leetcode.com/problems/max-consecutive-ones
 

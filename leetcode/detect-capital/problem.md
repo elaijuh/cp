@@ -1,4 +1,4 @@
-# Problem
+# Problem: detect-capital
 
 https://leetcode.com/problems/detect-capital
 

@@ -1,4 +1,4 @@
-# Problem
+# Problem: count-covered-buildings
 
 https://leetcode.com/problems/count-covered-buildings
 
