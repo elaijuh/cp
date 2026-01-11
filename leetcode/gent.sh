@@ -11,6 +11,7 @@ cat > $wd/${1}/problem.md <<- EOF
 	# $name
 	$link
 	# Tags
+	# Similar
 	# Solution
 EOF
 

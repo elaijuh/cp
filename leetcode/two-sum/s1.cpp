@@ -6,16 +6,16 @@ public:
 	vector<int> twoSum(vector<int> &nums, int target)
 	{
 		unordered_map<int, int> mp;
-		int n = nums.size();
 		vector<int> ans;
-		for (int i = 0; i < n; ++i) {
-			if (mp.find(nums[i]) == mp.end())
-				mp[target - nums[i]] = i;
-			else {
-				ans = {mp[nums[i]], i};
+		for (int i = 0; i < nums.size(); ++i) {
+			if (mp.count(target - nums[i]) && mp[target - nums[i]] != i) {
+				ans = {i, mp[target - nums[i]]};
 				break;
+			}
+			else {
+				mp[nums[i]] = i;
 			}
 		}
 		return ans;
 	}
-}
+};

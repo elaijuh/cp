@@ -1,9 +1,11 @@
-# Problem: 1_two-sum
+# two-sum
 
 https://leetcode.com/problems/two-sum
 
 # Tags
 
-#easy #hashmap
+#easy #hash
+
+# Similar
 
 # Solution
