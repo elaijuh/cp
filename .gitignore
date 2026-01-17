@@ -1,7 +1,8 @@
 .DS_Store
-foo.cc
 *.dSYM
-code
+.venv/
+leetcode/note.md
+codeforces/api_key.json
 
 # Prerequisites
 *.d
@@ -35,3 +36,4 @@ code
 *.exe
 *.out
 *.app
+

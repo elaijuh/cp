@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 set -e
 
@@ -8,28 +8,30 @@ pindex=$(echo ${1} | cut -d'.' -f1 | cut -d'_' -f2)
 plink=https://codeforces.com/contest/$cid/problem/${pindex^^}
 problems=$(curl -s https://codeforces.com/api/problemset.problems)
 pname=$(echo $problems | jq -r --arg cid "$cid" --arg pindex ${pindex^^} '.result.problems[] | select(.contestId == ($cid|tonumber)) | select(.index == $pindex)| .name')
-ptags=($(echo $problems | jq -r --arg cid "$cid" --arg pindex ${pindex^^} '.result.problems[] | select(.contestId == ($cid|tonumber)) | select(.index == $pindex)| .tags[]'))
+ptags=($(echo $problems | jq -r --arg cid "$cid" --arg pindex ${pindex^^} '.result.problems[] | select(.contestId == ($cid|tonumber)) | select(.index == $pindex) | .tags | map(gsub(" ";"_"))[]'))
 tags=""
 for t in ${ptags[@]}; do tags+="#$t "; done
+praiting=($(echo $problems | jq --arg cid "$cid" --arg pindex ${pindex^^} '.result.problems[] | select(.contestId == ($cid|tonumber)) | select(.index == $pindex) | .raiting | select(.)'))
 
 ext=$(echo ${1} | cut -d'.' -f2)
-if [[ "$ext" == "cpp" ]]; then
-  cat >${1} <<EOF
+if [[ $ext == "cpp" ]]; then
+	cat > ${1} << EOF
 // $plink
-// $cname, ${pindex^^}.$pname
-// $tags
+// name: $cname, ${pindex^^}.$pname
+// raiting: $praiting
+// tags: $tags
 
 #include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+    ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0);
     return 0;
 }
 EOF
-elif [[ "$ext" == "c" ]]; then
-  cat >${1} <<EOF
+elif [[ $ext == "c" ]]; then
+	cat > ${1} << EOF
 // $plink
 // $cname, ${pindex^^}.$pname
 // $tags

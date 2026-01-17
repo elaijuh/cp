@@ -9,4 +9,15 @@ g++ -static -DONLINE_JUDGE -Wl,--stack=268435456 -O2 -std=c++17 %1
 
 # API
 
-https://codeforces.com/apiHelp
+- https://codeforces.com/apiHelp
+- [Python API wrapper](https://github.com/VadVergasov/CodeforcesApiPy)
+
+# Generate template
+
+```bash
+source .venv/bin/activate.fish
+make template c=CONTEST p=PROBLEM
+# or
+python util.py template -c CONTEST -p PROBLEM
+deactivate
+```

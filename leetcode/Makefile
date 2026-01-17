@@ -1,4 +1,5 @@
 TARGET = $(t)
+PROBLEM = $(p)
 suf = $(suffix $(TARGET))
 ifeq ($(suf), .c)
 CC = gcc
@@ -20,7 +21,8 @@ a.out: $(TARGET)
 	$(CC) $(CFLAGS) $(TARGET) -o a.out
 
 template:
-	./gent.sh $(TARGET)
+	# ./gent.sh $(TARGET)
+	python util.py template -p $(PROBLEM)
 
 format:
 	git ls-files | grep -E '\.(c|cpp|cc|h)$$' | xargs clang-format -i

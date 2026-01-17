@@ -49,6 +49,10 @@ https://leetcode.com/problems/word-search-ii/
 
 ### suffix tree
 
+### segment tree
+
+- https://leetcode.com/problems/separate-squares-ii/
+
 ## graph
 
 ### DAG 环检测，拓扑排序

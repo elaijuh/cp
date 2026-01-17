@@ -12,4 +12,6 @@ https://leetcode.com/problems/separate-squares-i
 
 ## 1. Binary search
 
-## 2. Scan line
+## 2. Scanning line
+
+y = pre_y + (total_are-2*area)/2*width

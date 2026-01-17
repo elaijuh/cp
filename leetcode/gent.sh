@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 
 num=$(echo ${1} | cut -d'_' -f1)
 name=$(echo ${1} | cut -d'_' -f2)
@@ -23,3 +23,6 @@ EOF
 # cat >$wd/${1}/s1.c <<-EOF
 # 	#include <stdio.h>
 # EOF
+
+cat > $wd/${1}/s1.py <<- EOF
+EOF
