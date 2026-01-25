@@ -33,7 +33,6 @@ Link: https://leetcode.com/problems/{problem}
 using namespace std;
 """
     f_py = """from typing import List
-from collections import defaultdict
 """
 
     with open(f"{problem}/problem_.md", "w", encoding="utf-8") as f:

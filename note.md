@@ -79,16 +79,26 @@ https://leetcode.com/problems/reconstruct-itinerary/
 
 # algorithm
 
+## prefix sum
+
+- 1d prefix sum
+  https://leetcode.com/problems/make-sum-divisible-by-p
+
+- 2d prefix sum
+
+  https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/description/
+
 ## binary search
 
 基于数值的二分查找
-https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
+
+- https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 
 ## sliding window
 
-https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+- https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 
-https://leetcode.com/problems/permutation-in-string/description/
+- https://leetcode.com/problems/permutation-in-string/description/
 
 不相交子数组求和
 https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/
