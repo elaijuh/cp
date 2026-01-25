@@ -38,7 +38,8 @@ def template():
     # create template file
     problem = next((p for p in problems if p.index.lower() == problem_id), None)
     problem_tags = " ".join(["#" + t for t in problem.tags])
-    f_md = f"""# Problem
+    f_md = f"""\
+# Problem
 Contest: {contest.name}\\
 Problem: {problem.index}.{problem.name}\\
 Link: https://codeforces.com/contest/{contest_id}/problem/{problem_id}\\

@@ -19,7 +19,8 @@ def template():
         pass
 
     # create template file
-    f_md = f"""# Problem: {problem}
+    f_md = f"""\
+# Problem: {problem}
 Contest: {contest_link}\\
 Link: https://leetcode.com/problems/{problem}
 
@@ -29,10 +30,12 @@ Link: https://leetcode.com/problems/{problem}
 
 # Solution
 """
-    f_cpp = """#include <bits/stdc++.h>
+    f_cpp = """\
+#include <bits/stdc++.h>
 using namespace std;
 """
-    f_py = """from typing import List
+    f_py = """\
+from typing import List
 """
 
     with open(f"{problem}/problem_.md", "w", encoding="utf-8") as f:
