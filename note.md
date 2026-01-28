@@ -144,6 +144,8 @@ https://leetcode.com/problems/edit-distance/
 
 ## dijkstra
 
+- https://leetcode.com/problems/minimum-cost-path-with-edge-reversals
+
 ## travelling salesman problem (tsp) / hamiltonia cycle
 
 ## minimum spanning tree (mst)
