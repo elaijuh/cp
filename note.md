@@ -41,9 +41,10 @@ https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/descr
 bst 求第 k 小的元素(inorder 遍历即排序)
 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
-### trie
+### trie (prefix tree)
 
-https://leetcode.com/problems/word-search-ii/
+- https://leetcode.com/problems/word-search-ii/
+- https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
 
 ### red-black tree
 
@@ -54,6 +55,12 @@ https://leetcode.com/problems/word-search-ii/
 - https://leetcode.com/problems/separate-squares-ii/
 
 ## graph
+
+graph is usually represented by adjacency list or adjacency matrix
+
+### dijkstra (directed graph with non-negtive edge weight)
+
+- https://leetcode.com/problems/minimum-cost-path-with-edge-reversals
 
 ### DAG 环检测，拓扑排序
 
@@ -66,8 +73,11 @@ https://leetcode.com/problems/course-schedule/
 二分图着色法
 https://leetcode.com/problems/possible-bipartition/
 
-Floyd-Warshall
-https://leetcode.com/problems/course-schedule-iv/
+Floyd-Warshall (directed or undirected graph, no negative cycles)
+
+- https://leetcode.com/problems/course-schedule-iv/
+- https://leetcode.com/problems/minimum-cost-to-convert-string-i/
+- https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
 
 dfs 边限制下的最短路径
 https://leetcode.com/problems/cheapest-flights-within-k-stops/
@@ -113,7 +123,30 @@ https://leetcode.com/problems/majority-element/
 
 ## dynamic programming
 
+### LIS (Longest Increasing Sebsequence)
+
+- https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/
+
+### LCS (Longest Common Sebsequence)
+
+- https://leetcode.com/problems/uncrossed-lines/
+
+LCS 变体，多了替换操作
+
+- https://leetcode.com/problems/edit-distance/
+
+### knapsack
+
+0/1 knapsack
+
+non-0/1 knapsack
+
+- https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
+
+### travelling salesman problem (tsp) / hamiltonia cycle
+
 - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-v
+- https://leetcode.com/problems/minimum-cost-path-with-teleportations (matrix traversal with minimum cost)
 
 ## string match
 
@@ -135,29 +168,9 @@ https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
 
 https://leetcode.com/problems/largest-divisible-subset/
 
-## LCS
-
-https://leetcode.com/problems/uncrossed-lines/
-
-LCS 变体，多了替换操作
-https://leetcode.com/problems/edit-distance/
-
-## dijkstra
-
-- https://leetcode.com/problems/minimum-cost-path-with-edge-reversals
-
-## travelling salesman problem (tsp) / hamiltonia cycle
-
 ## minimum spanning tree (mst)
 
 ## huffman tree
-
-## knapsack (DP)
-
-0/1 knapsack
-
-non-0/1 knapsack
-https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/description/
 
 凑硬币
 https://leetcode.com/problems/coin-change-2/

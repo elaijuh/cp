@@ -38,7 +38,7 @@ using namespace std;
 from typing import List
 """
 
-    with open(f"{problem}/problem_.md", "w", encoding="utf-8") as f:
+    with open(f"{problem}/problem.md", "w", encoding="utf-8") as f:
         f.write(f_md)
     # with open(f"{problem}/s1.cpp", "w", encoding="utf-8") as f:
     #     f.write(f_cpp)
