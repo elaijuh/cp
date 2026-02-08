@@ -1,0 +1,25 @@
+{
+  "problem_name": "two_sum",
+  "problem_slug": "two-sum",
+  "problem_number": 1,
+  "problem_title": "Two Sum",
+  "difficulty": "Easy",
+  "topics": "Array, Hash Table",
+
+  "readme_description": "Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.",
+  "readme_examples": {
+    "list": [
+      {
+        "number": 1,
+        "text": "```\nInput: nums = [2,7,11,15], target = 9\nOutput: [0,1]\n```\n**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1]."
+      }
+    ]
+  },
+  "readme_constraints": "- 2 <= nums.length <= 10^4\n- -10^9 <= nums[i] <= 10^9\n- -10^9 <= target <= 10^9\n- Only one valid answer exists.",
+  "readme_additional": "",
+
+  "solution_imports": "",
+  "solution_contents": "",
+  "solution_class_content": "",
+  "solution_class_name": "Solution"
+}

@@ -37,3 +37,13 @@ codeforces/api_key.json
 *.out
 *.app
 
+# Python
+.venv/
+__pycache__
+*.pyc
+*.egg-info
+.coverage
+.mypy_cache
+.pytest_cache
+.ruff_cache
+

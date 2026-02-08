@@ -1,14 +1,28 @@
-# Leetcode
+# LeetCode
+
+## Fetch problem
 
 ```bash
-cd leetcode
-
-# create folder for problem
-make template t=two-sum
+uv run cpx leetcode fetch -n 1
 ```
+
+## Generate problem
+
+```bash
+uv run cpx leetcode generate -n 1
+```
+
+## Test
+
+```bash
+uv run pytest leetcode/PROBLEM
+```
+
+# Codeforces
 
 # Atcode
 
-# API
+# API Reference
 
-https://github.com/alfaarghya/alfa-leetcode-api
+- https://github.com/alfaarghya/alfa-leetcode-api
+- https://github.com/akarsh1995/leetcode-graphql-queries/

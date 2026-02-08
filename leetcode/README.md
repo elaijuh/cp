@@ -4,7 +4,11 @@ https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environ
 
 # API
 
-Leetcode does not have official API published
+Leetcode does not have official API published. Some third party API
+
+- https://github.com/noworneverev/leetcode-api/blob/main/README.md
+- https://github.com/alfaarghya/alfa-leetcode-api
+- https://github.com/wislertt/leetcode-py
 
 # Generate template
 

@@ -1,0 +1,42 @@
+[project]
+name = "cp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hjl", email = "hjiale@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "cookiecutter>=2.6.0",
+    "requests>=2.32.5",
+    "typer>=0.21.1",
+]
+
+[project.scripts]
+cpx = "cp.cli.main:app"
+
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["leetcode", "tests"]
+norecursedirs = ["src/cp/cli/templates"]
+
+[tool.ruff]
+extend-exclude = ["src/cp/cli/templates"]
+
+[tool.ty.src]
+exclude = [
+  "src/cp/cli/templates"
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[tool.uv.build-backend]
+module-name = ["cp"]
+module-root = "src"
