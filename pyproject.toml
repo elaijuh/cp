@@ -26,6 +26,9 @@ norecursedirs = ["src/cp/cli/templates"]
 
 [tool.ruff]
 extend-exclude = ["src/cp/cli/templates"]
+[tool.ruff.lint]
+ignore = ["E741"]
+
 
 [tool.ty.src]
 exclude = [

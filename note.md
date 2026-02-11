@@ -52,7 +52,9 @@ https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 
 ### segment tree
 
-- https://leetcode.com/problems/separate-squares-ii/
+- https://leetcode.com/problems/number-of-longest-increasing-subsequence
+- https://leetcode.com/problems/separate-squares-ii
+- https://leetcode.com/problems/longest-balanced-subarray-ii
 
 ## graph
 
@@ -125,7 +127,8 @@ https://leetcode.com/problems/majority-element/
 
 ### LIS (Longest Increasing Sebsequence)
 
-- https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and/
+- https://leetcode.com/problems/number-of-longest-increasing-subsequence
+- https://leetcode.com/problems/longest-strictly-increasing-subsequence-with-non-zero-bitwise-and
 
 ### LCS (Longest Common Sebsequence)
 

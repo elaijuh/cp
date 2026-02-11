@@ -1,8 +1,7 @@
 import heapq
-from typing import List
 
 
-def dijkstra(start: int, graph: List[List[(int, int)]]) -> List[int]:
+def dijkstra(start: int, graph: list[list[(int)]]) -> list[int]:
     n = len(graph)
     min_weight = [float("inf")] * n
     min_weight[start] = 0
