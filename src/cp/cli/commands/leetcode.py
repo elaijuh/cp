@@ -38,7 +38,7 @@ def generate(
 ):
     problem_nums = problem_nums if problem_nums is not None else []
     problem_slugs = problem_slugs if problem_slugs is not None else []
-    template_dir = get_template_path()
+    template_dir = get_template_path("leetcode")
     output_dir = Path(output)
 
     if sum([len(problem_nums) > 0, len(problem_slugs) > 0]) != 1:
