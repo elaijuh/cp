@@ -1,12 +1,12 @@
 import typer
-from .commands import leetcode
-from .commands import atcoder
+from .commands import leetcode, atcoder, codeforces
 
 app = typer.Typer()
 
 
 app.add_typer(leetcode.app, name="leetcode")
 app.add_typer(atcoder.app, name="atcoder")
+app.add_typer(codeforces.app, name="codeforces")
 
 
 @app.callback(invoke_without_command=True)

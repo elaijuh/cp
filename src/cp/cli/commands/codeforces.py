@@ -4,8 +4,8 @@ from typing import Annotated
 
 import typer
 
-from cp.tools import AtcoderFetcher
-from cp.tools import AtcoderGenerator
+from cp.tools import CodeForcesFetcher
+from cp.tools import CodeForcesGenerator
 from cp.tools.utils import get_template_path
 
 app = typer.Typer()
@@ -14,10 +14,10 @@ app = typer.Typer()
 @app.command("fetch")
 def fetch(
     problem_slug: str | None = typer.Option(
-        None, "-s", "--problem-slug", help="Problem slug (e.g., 'abc445_a')"
+        None, "-s", "--problem-slug", help="Problem slug (e.g., '2195_a')"
     ),
 ) -> None:
-    fetcher = AtcoderFetcher()
+    fetcher = CodeForcesFetcher()
 
     try:
         if problem_slug:
@@ -38,16 +38,16 @@ def generate(
     ] = None,
     output: Annotated[
         str, typer.Option(".", "-o", "--output", help="Output directory")
-    ] = "atcoder",
+    ] = "codeforces",
     force: Annotated[
         bool, typer.Option("--force", help="Force overwrite existing files")
     ] = False,
 ):
     problem_slugs = problem_slugs if problem_slugs is not None else []
-    template_dir = get_template_path("atcoder")
+    template_dir = get_template_path("codeforces")
     output_dir = Path(output)
 
-    fetcher = AtcoderFetcher()
+    fetcher = CodeForcesFetcher()
     problems = []
     if problem_slugs:
         try:
@@ -64,12 +64,12 @@ def generate(
     failed_count = 0
     created_dirs: list[Path] = []
 
-    generator = AtcoderGenerator()
+    generator = CodeForcesGenerator()
     for p in problems:
         try:
             problem_id = p.get("id")
-            contest_id = p.get("contest_id")
-            problem_index = p.get("problem_index")
+            contest_id = str(p.get("contestId"))
+            problem_index = p.get("index")
             generator.generate_problem(p, template_dir, output_dir, force)
             created_dirs.append(output_dir / contest_id / problem_index)
             success_count += 1
