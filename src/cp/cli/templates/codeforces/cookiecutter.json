@@ -1,11 +1,12 @@
 {
-  "problem_name": "Strong Word",
-  "problem_id": "abc445_a",
-  "problem_title": "A. Strong Word",
+  "problem_name": "Parkour Design",
+  "problem_id": "2202_a",
+  "problem_title": "A. Parkour Design",
   "problem_index": "A",
   "problem_rating": "100.0",
-  "problem_points": "100.0",
-  "problem_tags": "#math,#number_theory",
+  "problem_points": "750.0",
+  "problem_tags": "#math",
 
-  "contest_id": "abc445"
+  "contest_id": "2202",
+  "contest_name": "Codeforces Round 1082 (Div. 2)"
 }
