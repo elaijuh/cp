@@ -17,22 +17,22 @@ dependencies = [
 cpx = "cp.cli.main:app"
 
 [build-system]
-requires = ["uv_build>=0.9.25,<0.10.0"]
+requires = ["uv_build>=0.9.25,<=0.11.3"]
 build-backend = "uv_build"
 
 [tool.pytest.ini_options]
 testpaths = ["leetcode", "tests"]
-norecursedirs = ["src/cp/cli/templates"]
+norecursedirs = ["scripts/cp/cli/templates"]
 
 [tool.ruff]
-extend-exclude = ["src/cp/cli/templates"]
+extend-exclude = ["scripts/cp/cli/templates"]
 [tool.ruff.lint]
 ignore = ["E741"]
 
 
 [tool.ty.src]
 exclude = [
-  "src/cp/cli/templates"
+  "scripts/cp/cli/templates"
 ]
 
 [dependency-groups]
@@ -42,4 +42,4 @@ dev = [
 
 [tool.uv.build-backend]
 module-name = ["cp"]
-module-root = "src"
+module-root = "scripts"
